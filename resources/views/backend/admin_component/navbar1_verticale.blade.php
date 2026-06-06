@@ -36,95 +36,485 @@
                 <li class="nav-item">
                     <!-- label-->
                     <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
-                        <div class="col-auto navbar-vertical-label">User Management </div>
+                        <div class="col-auto navbar-vertical-label">Global Management</div>
                         <div class="col ps-0">
                         <hr class="mb-0 navbar-vertical-divider" />
                         </div>
                     </div>
                    
                    
+                    {{-- item groups start  --}}
                     <a class="nav-link dropdown-indicator" href="#email" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
-                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">System users </span></div>
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Global Management </span></div>
                     </a>
                     <ul class="nav collapse" id="email">
                         <li class="nav-item">
                             <a class="nav-link" href="">
-                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Students</span></div>
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Countries</span></div>
                             </a>
                             <!-- more inner pages-->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">
-                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Agents / Partners</span></div>
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Campuses / Branches</span></div>
                             </a>
                             <!-- more inner pages-->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">
-                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">University Admins</span></div>
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Franchise / Partners</span></div>
                             </a>
                             <!-- more inner pages-->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">
-                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Staff / Employees</span></div>
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">University Partners</span></div>
                             </a>
                             <!-- more inner pages-->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">
-                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Role & Permissions</span></div>
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Awarding Bodies</span></div>
                             </a>
                             <!-- more inner pages-->
                         </li>
                     </ul>
+                    {{-- item groups end here --}}
+                    
+                    <a class="nav-link dropdown-indicator" href="#user_role" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="user_role">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">User & Role </span></div>
+                    </a>
+                    <ul class="nav collapse" id="user_role">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">All Users</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Roles & Permissions</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Staff Management</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Agent / Partner Users</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Student Accounts</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Forced Login</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                    </ul>
+                    {{-- item groups end here --}}
+
+
+                </li>
+
+
+
+
+                {{-- ===================================================  list end here ======================= --}}
+                <li class="nav-item">
+                    <!-- label-->
+                    <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                        <div class="col-auto navbar-vertical-label">Course & Academic</div>
+                        <div class="col ps-0">
+                        <hr class="mb-0 navbar-vertical-divider" />
+                        </div>
+                    </div>
+                   
+                   {{-- --------------------------- --}}
+                    <a class="nav-link dropdown-indicator" href="#ilap_course" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="ilap_course">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">iLAP Own Courses </span></div>
+                    </a>
+                    <ul class="nav collapse" id="ilap_course">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Course List</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Modules</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Fees Structure</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                    </ul>
+                    {{-- --------------------------------------------------------- --}}
+                    <a class="nav-link dropdown-indicator" href="#university" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="university">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Univesity & Programs </span></div>
+                    </a>
+                    <ul class="nav collapse" id="university">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">All University</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1"> Depertment</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Programs</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Session/Intak</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Requirments</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Fees Structure</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                    </ul>
+                    {{-- --------------------------------------------------------- --}}
+                    <a class="nav-link dropdown-indicator" href="#academic" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="academic">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Academic Results </span></div>
+                    </a>
+                    <ul class="nav collapse" id="academic">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Results</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Greading System</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Transcript Generator</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Certificate Generator</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        
+                    </ul>
+                    {{-- --------------------------------------------------------- --}}
+
+
+                </li>
+                {{-- ===================================================  list end here ======================= --}}
+
+
+                {{-- ===================================================  list end here ======================= --}}
+                <li class="nav-item">
+                    <!-- label-->
+                    <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                        <div class="col-auto navbar-vertical-label">Students & Enrolments</div>
+                        <div class="col ps-0">
+                        <hr class="mb-0 navbar-vertical-divider" />
+                        </div>
+                    </div>
+                   
+                   {{-- --------------------------- --}}
+                    <a class="nav-link dropdown-indicator" href="#students" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="students">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Enrolment Details</span></div>
+                    </a>
+                    <ul class="nav collapse" id="students">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">All Enrolments</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">New Applications</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Enrolment Pipline</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                    </ul>
+                    {{-- --------------------------------------------------------- --}}
+                    <a class="nav-link dropdown-indicator" href="#letter_certificate" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="letter_certificate">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Letters & Certificate</span></div>
+                    </a>
+                    <ul class="nav collapse" id="letter_certificate">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Offer Latters</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Certificates</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                       
+                    </ul>
+                    {{-- --------------------------------------------------------- --}}
+                   
                 </li>
                 {{-- ===================================================  list end here ======================= --}}
                 <li class="nav-item">
                     <!-- label-->
                     <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
-                        <div class="col-auto navbar-vertical-label">Partner / Branch System </div>
+                        <div class="col-auto navbar-vertical-label">Accounts Management</div>
                         <div class="col ps-0">
                         <hr class="mb-0 navbar-vertical-divider" />
                         </div>
                     </div>
                    
-                   
-                    <a class="nav-link dropdown-indicator" href="#email" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
-                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">System users </span></div>
+                   {{-- --------------------------- --}}
+                    <a class="nav-link dropdown-indicator" href="#accounts" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="accounts">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Enrolment Details</span></div>
                     </a>
-                    <ul class="nav collapse" id="email">
+                    <ul class="nav collapse" id="accounts">
                         <li class="nav-item">
                             <a class="nav-link" href="">
-                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Students</span></div>
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">All Enrolments</span></div>
                             </a>
                             <!-- more inner pages-->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">
-                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Agents / Partners</span></div>
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">New Applications</span></div>
                             </a>
                             <!-- more inner pages-->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">
-                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">University Admins</span></div>
-                            </a>
-                            <!-- more inner pages-->
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">
-                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Staff / Employees</span></div>
-                            </a>
-                            <!-- more inner pages-->
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">
-                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Role & Permissions</span></div>
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Enrolment Pipline</span></div>
                             </a>
                             <!-- more inner pages-->
                         </li>
                     </ul>
+                    {{-- --------------------------------------------------------- --}}
+                </li>
+                {{-- ===================================================  list end here ======================= --}}
+                <li class="nav-item">
+                    <!-- label-->
+                    <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                        <div class="col-auto navbar-vertical-label">HR Management</div>
+                        <div class="col ps-0">
+                        <hr class="mb-0 navbar-vertical-divider" />
+                        </div>
+                    </div>
+                   
+                   {{-- --------------------------- --}}
+                    <a class="nav-link dropdown-indicator" href="#hr" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="hr">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Enrolment Details</span></div>
+                    </a>
+                    <ul class="nav collapse" id="hr">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">All Enrolments</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">New Applications</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Enrolment Pipline</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                    </ul>
+                    {{-- --------------------------------------------------------- --}}
+                </li>
+                {{-- ===================================================  list end here ======================= --}}
+                <li class="nav-item">
+                    <!-- label-->
+                    <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                        <div class="col-auto navbar-vertical-label">Support & Communications</div>
+                        <div class="col ps-0">
+                        <hr class="mb-0 navbar-vertical-divider" />
+                        </div>
+                    </div>
+                   
+                   {{-- --------------------------- --}}
+                    <a class="nav-link dropdown-indicator" href="#support" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="support">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Support </span></div>
+                    </a>
+                    <ul class="nav collapse" id="support">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">All Enrolments</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">New Applications</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Enrolment Pipline</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                    </ul>
+                    {{-- --------------------------------------------------------- --}}
+                </li>
+                {{-- ===================================================  list end here ======================= --}}
+                <li class="nav-item">
+                    <!-- label-->
+                    <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                        <div class="col-auto navbar-vertical-label">Marketing & Campaigns</div>
+                        <div class="col ps-0">
+                        <hr class="mb-0 navbar-vertical-divider" />
+                        </div>
+                    </div>
+                   
+                   {{-- --------------------------- --}}
+                    <a class="nav-link dropdown-indicator" href="#support" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="support">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Marketing</span></div>
+                    </a>
+                    <ul class="nav collapse" id="support">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">All Enrolments</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">New Applications</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Enrolment Pipline</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                    </ul>
+                    {{-- --------------------------------------------------------- --}}
+                </li>
+                {{-- ===================================================  list end here ======================= --}}
+                <li class="nav-item">
+                    <!-- label-->
+                    <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                        <div class="col-auto navbar-vertical-label">Report & Analytics</div>
+                        <div class="col ps-0">
+                        <hr class="mb-0 navbar-vertical-divider" />
+                        </div>
+                    </div>
+                   
+                   {{-- --------------------------- --}}
+                    <a class="nav-link dropdown-indicator" href="#support" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="support">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Report & Analytics </span></div>
+                    </a>
+                    <ul class="nav collapse" id="support">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">All Enrolments</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">New Applications</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Enrolment Pipline</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                    </ul>
+                    {{-- --------------------------------------------------------- --}}
+                </li>
+                {{-- ===================================================  list end here ======================= --}}
+                <li class="nav-item">
+                    <!-- label-->
+                    <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                        <div class="col-auto navbar-vertical-label">System & Settings</div>
+                        <div class="col ps-0">
+                        <hr class="mb-0 navbar-vertical-divider" />
+                        </div>
+                    </div>
+                   
+                   {{-- --------------------------- --}}
+                    <a class="nav-link dropdown-indicator" href="#support" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="support">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">System & Settings </span></div>
+                    </a>
+                    <ul class="nav collapse" id="support">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">All Enrolments</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">New Applications</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Enrolment Pipline</span></div>
+                            </a>
+                            <!-- more inner pages-->
+                        </li>
+                    </ul>
+                    {{-- --------------------------------------------------------- --}}
                 </li>
                 {{-- ===================================================  list end here ======================= --}}
 
