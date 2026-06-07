@@ -312,7 +312,7 @@
                    
                    {{-- --------------------------- --}}
                     <a class="nav-link dropdown-indicator" href="#accounts" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="accounts">
-                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Enrolment Details</span></div>
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Accounts</span></div>
                     </a>
                     <ul class="nav collapse" id="accounts">
                         <li class="nav-item">
@@ -348,7 +348,7 @@
                    
                    {{-- --------------------------- --}}
                     <a class="nav-link dropdown-indicator" href="#hr" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="hr">
-                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Enrolment Details</span></div>
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">HR Management</span></div>
                     </a>
                     <ul class="nav collapse" id="hr">
                         <li class="nav-item">

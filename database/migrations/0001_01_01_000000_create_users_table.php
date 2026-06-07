@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->integer('role')->default(0);
+            $table->enum('type', ['super_admin', 'admin', 'university', 'branch', 'staff', 'student','other'])->nullable();
+            $table->string('slug')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
